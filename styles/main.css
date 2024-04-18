@@ -1,0 +1,264 @@
+:root {
+    --primary-100: #5141AA;
+    --secondary: #FA8305;
+    --brown:#1C140F;
+    --black:#070707;
+    --bg-gradiant:#3B2A9F;
+  }
+  
+   
+  @font-face {
+    font-family: 'ExBold';
+    font-weight: 800;
+    src: url('../assets/fonts/Poppins-ExtraBold.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Bold';
+    font-weight: 700;
+    src: url('../assets/fonts/Poppins-Bold.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    font-weight: 600;
+    src: url('../assets/fonts/Poppins-SemiBold.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Thin';
+    font-weight: 300;
+    src: url('../assets/fonts/Poppins-Thin.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Medium';
+    font-weight: 500;
+    src: url('../assets/fonts/Poppins-Medium.ttf') ;
+       
+}
+
+@font-face {
+    font-family: 'Regular';
+    font-weight: 400;
+    src: url('../assets/fonts/Poppins-Regular.ttf') ;
+       
+}
+
+a , h1 ,h2 , h3 , h4 , h5 , h6 ,p{
+    color : white;
+    
+}
+
+.unity{
+    position: absolute;
+    translate: 600px 280px;
+    font-size: 50px;
+    
+}
+
+.unreal{
+    position: absolute;
+    font-size: 50px;
+    translate: 1100px 90px;
+    
+}
+
+.cry{
+    position: absolute;
+    font-size: 50px;
+    translate: 800px 100px;
+   
+}
+
+nav a {
+    font-family: Regular;
+}
+
+.intro h1{
+    font-family: Bold;
+    font-size: 45px;
+}
+
+.introPara {
+    font-family: Regular;
+}
+
+.lilOrange{
+    font-family: Bold;
+    font-size: larger;
+    color : var(--secondary)
+}
+
+.gamesBtn{
+    background-color: var(--secondary);
+    font-family: Regular;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.seeAllBtn{
+    background-color: var(--primary-100);
+    color: white;
+}
+
+.submitEmailBut{
+    background-color: var(--secondary);
+    color: white;
+    position: relative;
+    right:135px
+}
+
+li{
+    list-style-type:none
+}
+
+ul{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footerHome h5{
+    font-family: Regular;
+    
+}
+
+.ourProjects{
+    display: flex;
+    justify-self: center;
+}
+
+
+@media (max-width: 768px){
+
+    .spidy {
+         width: 573px;
+         height:462px;
+         object-fit: cover;
+        }
+
+    .p1{
+        width: 352px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p2{
+        width: 280px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p3{
+        width: 305px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p4{
+        width: 335px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p5{
+        width: 246px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p6{
+        width: 401px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .inputEmailDiv{
+        position: relative;
+        left: 70px;
+        margin-bottom: 40px;
+        width: 100%
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .spidy {
+         width: 452px;
+         height:388px;
+         object-fit: cover;
+        }
+
+    .p1{
+        width: 401px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p3{
+        width: 401px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .p6{
+        width: 401px;
+        height: 223px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .inputEmailDiv{
+        position: relative;
+        left: 70px;
+        margin-bottom: 40px;
+        width: 100%
+    }
+
+}
+
+.imgHov:hover{
+    opacity: 50%;
+    transition: 0.2s;
+}
+
+.txtHov:hover{
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.themeButton{
+    background-color: var(--secondary);
+    font-family: Regular;
+    padding: 2px 20px;
+    font-size: 25px;
+    margin-right: 40px;
+    color: white;
+    border: 0;
+    border-radius: 10px
+}
+
+.line{
+    border-radius: 5px;
+    height: 5px;
+    background-color: var(--secondary);
+}
+
+
+    
