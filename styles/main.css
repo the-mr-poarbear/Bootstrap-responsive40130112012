@@ -56,7 +56,7 @@ a , h1 ,h2 , h3 , h4 , h5 , h6 ,p{
 
 .unity{
     position: absolute;
-    translate: 600px 280px;
+    translate: 550px 280px;
     font-size: 50px;
     
 }
@@ -64,14 +64,14 @@ a , h1 ,h2 , h3 , h4 , h5 , h6 ,p{
 .unreal{
     position: absolute;
     font-size: 50px;
-    translate: 1100px 90px;
+    translate: 1050px 100px;
     
 }
 
 .cry{
     position: absolute;
     font-size: 50px;
-    translate: 800px 100px;
+    translate: 750px 100px;
    
 }
 
@@ -110,7 +110,8 @@ nav a {
     background-color: var(--secondary);
     color: white;
     position: relative;
-    right:135px
+    left:120px;
+    bottom : 50px
 }
 
 li{
@@ -145,57 +146,52 @@ a{
         }
 
     .p1{
-        width: 352px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
     .p2{
-        width: 280px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
     .p3{
-        width: 305px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
     .p4{
-        width: 335px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
     .p5{
-        width: 246px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
     .p6{
-        width: 401px;
+        
         height: 223px;
         object-fit: cover;
         border-radius: 30px;
     }
 
-    .inputEmailDiv{
-        position: relative;
-        left: 70px;
-        margin-bottom: 40px;
-        width: 100%
-    }
+   
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 500px){
 
     .spidy {
          width: 452px;
@@ -203,33 +199,7 @@ a{
          object-fit: cover;
         }
 
-    .p1{
-        width: 401px;
-        height: 223px;
-        object-fit: cover;
-        border-radius: 30px;
-    }
 
-    .p3{
-        width: 401px;
-        height: 223px;
-        object-fit: cover;
-        border-radius: 30px;
-    }
-
-    .p6{
-        width: 401px;
-        height: 223px;
-        object-fit: cover;
-        border-radius: 30px;
-    }
-
-    .inputEmailDiv{
-        position: relative;
-        left: 70px;
-        margin-bottom: 40px;
-        width: 100%
-    }
 
 }
 
